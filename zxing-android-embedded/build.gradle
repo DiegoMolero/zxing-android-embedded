@@ -148,7 +148,3 @@ project.afterEvaluate {
         }
     }
 }
-
-signing {
-    sign publishing.publications
-}
