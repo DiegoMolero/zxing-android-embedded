@@ -51,7 +51,7 @@ public final class CameraManager {
 
     private static final String TAG = CameraManager.class.getSimpleName();
 
-    private Camera camera;
+    public Camera camera;
     private Camera.CameraInfo cameraInfo;
 
     private AutoFocusManager autoFocusManager;
