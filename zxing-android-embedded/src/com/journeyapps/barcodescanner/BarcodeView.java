@@ -77,7 +77,7 @@ public class BarcodeView extends CameraPreview {
         initialize();
     }
 
-    public getTest() {
+    public String getTest() {
         return "test";
     }
 
