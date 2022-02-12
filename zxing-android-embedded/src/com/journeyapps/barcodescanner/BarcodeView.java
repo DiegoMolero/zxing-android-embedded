@@ -77,10 +77,15 @@ public class BarcodeView extends CameraPreview {
         initialize();
     }
 
+    public getTest() {
+        return "test";
+    }
+
     public BarcodeView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initialize();
     }
+
 
     public BarcodeView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
